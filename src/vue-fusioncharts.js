@@ -114,7 +114,8 @@ export default (FC) => {
             this.containerID = 'fc-'+this._uid;
             return h('div', {
                 attrs:{
-                    'id':this.containerID
+                    'id':this.containerID,
+                    ':style': {width: '100%', height: '100%'}
                 }
             });
         },
